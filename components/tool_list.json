@@ -1,0 +1,30 @@
+[
+  {
+    "dev": true,
+    "users": ["mopan"],
+    "note_00": "2024-06-21 先上架測試。看看適不適用吧！data 持續補上。(v0.1)",
+    
+    "none_main": "以下幾個資訊為關鍵資訊，必填！",
+    "software": "max",
+    "name": "Render / Submit Tool [DEV]",
+    "description": "透過設定檔讓它可以仿照 Render Layer 進行批次本機算圖 (或 Submit)",
+    "icon": "render_queue.png",
+    
+    "source": "C:/Users/mopan/python/tools/max/render_save_as_tool/render_save_as_tool.py", 
+    "script": "C:/Users/mopan/python/tools/max/render_save_as_tool/render_save_as_tool.py", 
+    "script1": "V:/TD/tools/max/render_save_as_tool/render_save_as_tool.py", 
+    "func": "test",
+    
+    "none_keywords": "可以把相關的 keyword 全列入，包含部門或是關鍵字",
+    "keywords": ["TD", "render", "layer", "AKN"],
+
+    "none_project": "用來顯示在工具上的 Project Flag",
+    "project": "DEV",
+
+    "none_time": "create_time, update_time 為 timestamp",
+    "create_time": 1625101200,
+    "update_time": 1625101200,
+    
+    "id": "4ac83f82c5f34669a2432130d8d7dd9b"
+  }
+]

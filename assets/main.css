@@ -1,0 +1,106 @@
+:root {
+  --title: 2rem;
+  --item-title: 1.2rem;
+  --sub-title: 0.9rem;
+  --large: 2.5rem;
+  --extra-large: 3rem;
+  --extra-small: 0.7rem;
+  
+  --back-color: #2F2F2F;
+  --on-back-color: #FAFAFA;
+
+  --surface-color: #424242;
+  --surface-shadow: #323232;
+  --on-surface-color: #BDBDBD;
+
+  --pri-color: #009688;
+  --pri-shadow: #00796B;
+  --on-pri-color: #FAFAFA;
+
+  --sec-color: #D81B60;
+  --sec-shadow: #AD1457;
+  --on-sec-color: #FAFAFA;
+  
+  --td-color: #009688;
+  --td-shadow: #00796B;
+  --on-td-color: #FAFAFA;
+
+  --ignore-color: #757575;
+  --deadline-color: #FF9900;
+  --shotgrid-color: #37A5CC;
+
+  --maya-color: #5285a6;
+  --on-maya-color: #FAFAFA;
+/*  --maya-color: #1565C0;*/
+/*  --maya-color: #5285a6; Select*/
+/*  --maya-color: #48aab5; Icon*/
+/*  --maya-color: #5bd9e7; Icon hover*/
+
+  --max-color: #5f8ac1;
+  --on-max-color: #FAFAFA;
+/*  --max-color: #00838F;*/
+/*  --max-color: #5f8ac1; Select */
+/*  --max-color: #47c0c0; Icon*/
+
+  --blender-color: #e87d0d;
+  --on-blender-color: #FAFAFA;
+
+  --ae-color: #9898FE;
+  --ae-shadow: #00005B;
+  --on-ae-color: #2F2F2F;
+  
+  --pencil-color: #C12D6B;
+
+  --hint-color: #FFAB00;
+  --warning-color: #FFD600;
+  --error-color: #E53935;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: calibri, "Microsoft JhengHei", "微軟正黑體";
+  
+  color: var(--on-back-color);
+  background-color: var(--back-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #424242; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #424242;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #757575; 
+}
+
+/* 暫時修正 blocked aria-hidden on an element ... */
+div.modal[aria-hidden="true"] {
+  display: none !important;
+}
